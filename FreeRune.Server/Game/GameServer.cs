@@ -14,7 +14,7 @@ namespace FreeRune.Server.Game
             BinaryReader reader = new BinaryReader(stream);
             BinaryWriter writer = new BinaryWriter(stream);
             
-            Console.WriteLine("I need a good logger, also someone connected lol");
+            Logger.Info("Accepted connection!"); 
         }
     }
 }
