@@ -11,7 +11,7 @@ namespace FreeRune.Server.Common
         ERROR
     }
 
-    public class Logger
+    public static class Logger
     {
         public static LogLevel CurrentLogLevel = LogLevel.ERROR;
 
